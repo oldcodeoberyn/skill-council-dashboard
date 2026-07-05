@@ -33,7 +33,7 @@ playwright install chromium
 
 Run the built-in python script directly from the skill directory:
 ```bash
-python scripts/export_roster.py --region "成都" --username "李捷" --password "123456" --output roster_chengdu.md
+python scripts/export_roster.py --region "成都" --username "李四" --password "xxxxxx" --output roster_chengdu.md
 ```
 
 Options:
@@ -47,8 +47,8 @@ Options:
 
 When using this skill, replace the placeholder credentials inside the SKILL.md file or provide them as parameters to your execution scripts:
 - `<YOUR_REGION>`: E.g., `成都`
-- `<YOUR_USERNAME_OR_ID>`: E.g., `李捷`
-- `<YOUR_PASSWORD>`: E.g., `123456`
+- `<YOUR_USERNAME_OR_ID>`: E.g., `李四`
+- `<YOUR_PASSWORD>`: E.g., `xxxxxx`
 
 ## Repository Structure
 
